@@ -12,5 +12,5 @@ while running:
     else:
         print("Invalid input ,only type y or n ")
         
-for task in tasks:
-    print(task)
+for index, task in enumerate(tasks):
+    print(f"{index + 1}. {task}")
